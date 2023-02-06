@@ -135,6 +135,11 @@ binderhub:
           # 2022-11-18
           config:
             quota: 500
+        - pattern: ^iinchinn1/BMSC3393.*
+           # https://github.com/jupyterhub/mybinder.org-deploy/issues/2079
+           # 2022-02-06
+           config:
+             quota: 300
 
     GitRepoProvider:
       banned_specs:
